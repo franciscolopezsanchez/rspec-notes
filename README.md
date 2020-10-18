@@ -45,4 +45,7 @@ let(:variable) { Class.new()}
 - `after`
   - `after(:context)` will run once after each context
   - `after(:example)` will run once after each test
--
+
+## Implicit Subject
+
+- creates a `let` for us
