@@ -36,3 +36,13 @@ end
 ```ruby
 let(:variable) { Class.new()}
 ```
+
+## Hooks
+
+- `before`
+  - `before(:context)` will run once before each context
+  - `before(:example)` will run once before each test
+- `after`
+  - `after(:context)` will run once after each context
+  - `after(:example)` will run once after each test
+-
