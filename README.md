@@ -49,3 +49,11 @@ let(:variable) { Class.new()}
 ## Implicit Subject
 
 - creates a `let` for us
+
+## shared_examples
+
+- allows you to create a test that can be later imported in other describes with `include_examples`
+
+## shared_context
+
+- allows you to create a context that can be later imported in other test with `include_context`
