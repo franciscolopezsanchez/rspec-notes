@@ -57,3 +57,10 @@ let(:variable) { Class.new()}
 ## shared_context
 
 - allows you to create a context that can be later imported in other test with `include_context`
+
+## built_in matchers
+
+- `not_to`
+- `eq` test for value and **not for** type
+- `eql` test for **value** and **type**
+- `equal` test if things are the same thing, basically pointing to the same part of the memory
