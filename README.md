@@ -64,3 +64,9 @@ let(:variable) { Class.new()}
 - `eq` test for value and **not for** type
 - `eql` test for **value** and **type**
 - `equal` test if things are the same thing, basically pointing to the same part of the memory
+
+## Mocks
+
+- `instance_doubles` -> allows to mock an object only with the same methods and parameters
+- `class_doubles` -> it can only implement class methods that are defined on a class
+- `spy` -> can check functionality after being executed
